@@ -9,32 +9,45 @@
 1.  RandomOverSampler:
 ![resampling-random_oversampling](resampling-random_oversampling.png)
 
-
+    This model has accuracy 0.65, preceision: 1.0 and recall: 0.60.
 
 2. SMOTE:
 
     ![resampling-SMOTE-oversampling](resampling-SMOTE-oversampling.png)
 
+    This model has accuracy 0.66, preceision: 1.0 and recall: 0.69.
+
 3. undersampling ClusterCentroids:
 
     ![resampling-undersampling](resampling-undersampling.png)
+
+    This model has accuracy 0.54, preceision: 1.0 and recall: 0.40.
 
 4. Combination Sampling:
 
     ![resampling-combination_sampling](resampling-combination_sampling.png)
 
+    This model has accuracy 0.62, preceision: 1.0 and recall: 0.60.
+
 5. Ensemble Balanced Random Forest:
 
     ![ensemble_random_forest_classifier](ensemble_random_forest_classifier.png)
+
+    This model has accuracy 0.77, preceision: 1.0 and recall: 0.87.
 
 6. Easy Ensemble AdaBoost:
 
     ![ensemble_adaboost_classifier](ensemble_adaboost_classifier.png)
 
+    This model has accuracy 0.93, preceision: 1.0 and recall: 0.94.
+
 
 ## 3. Summary:
 
-
+   *  We have run six differetn model and we have obtained accuracy, precision, recall, F1 values. 
+   * All model has provided good precision level but observed variation in recall and accuracy.
+   * It is observed that different model has different accuracy which vary from 0.54 to 0.93. 
+   * However in all obtained results we have observed that model# 6 ( Easy Ensemble AdaBoost ) provided best results. it has highest accuracy/ highest recall as well as high precision.
 
 
 
